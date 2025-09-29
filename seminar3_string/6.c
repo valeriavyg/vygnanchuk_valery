@@ -1,10 +1,22 @@
 #include <stdio.h>
-
+#include <string.h>
 int main()
 {
-    char c;
-    int s = 0;
-    while ((c = getchar()) != '\n' && c != ' ') 
-        if (c >= '0' && c <= '9') s += c - '0';
-    printf("%i\n", s);
+    char a[1000];
+    scanf("%s", a);
+    int length = strlen(a);
+    int is_palindrome = 1;  
+    
+    for (int i = 0; i < length / 2; i++)
+    {
+        if (a[i] != a[length - 1 - i])
+        {
+            is_palindrome = 0;
+            break;
+        }
+    }
+    if (is_palindrome)
+        printf("Yes\n");
+    else
+        printf("No\n");
 }
