@@ -8,9 +8,9 @@ void addBrackets(std::string& str)
 
 int main()
 {
-std::string a = "Cat";
-addBrackets(a);
-std::cout << a << std::endl; // Должно напечатать [Cat]
-addBrackets(a);
-std::cout << a << std::endl; // Должно напечатать [[Cat]]
+ std::string a = "Cat";
+ addBrackets(a);
+ std::cout << a << std::endl; // Должно напечатать [Cat]
+ addBrackets(a);
+ std::cout << a << std::endl; // Должно напечатать [[Cat]]
 }
