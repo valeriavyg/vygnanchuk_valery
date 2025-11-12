@@ -7,7 +7,7 @@ void cube(int& a)
 
 int main()
 {
-int a = 5;
-cube(a);
-std::cout << a << std::endl; 
+    int a = 5;
+    cube(a);
+    std::cout << a << std::endl; 
 }
