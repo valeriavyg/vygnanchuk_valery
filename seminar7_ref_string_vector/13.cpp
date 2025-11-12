@@ -20,6 +20,6 @@ std::vector<std::string> prefixes(const std::string& str)
 
 int main()
 {
-std::vector<std::string> v = prefixes("Mouse");
-print(v); // Должно напечатать M Mo Mou Mous Mouse
+    std::vector<std::string> v = prefixes("Mouse");
+    print(v); // Должно напечатать M Mo Mou Mous Mouse
 }
