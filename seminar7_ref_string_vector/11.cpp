@@ -19,7 +19,7 @@ void doubling(std::vector<int>& v)
 }
 int main()
 {
-std::vector<int> v {10, 20, 30};
-doubling(v);
-print(v); // Должно напечатать 10 20 30 10 20 30
+    std::vector<int> v {10, 20, 30};
+    doubling(v);
+    print(v); // Должно напечатать 10 20 30 10 20 30
 }
