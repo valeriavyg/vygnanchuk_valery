@@ -14,6 +14,6 @@ std::string concatenate(const std::vector<std::string>& v)
 
 int main()
 {
-std::vector<std::string> v {"Cat", "Dog", "Mouse", "Tiger", "Elk"};
-std::cout << concatenate(v) << std::endl; // Должно напечатать CatDogMouseTigerElk
+    std::vector<std::string> v {"Cat", "Dog", "Mouse", "Tiger", "Elk"};
+    std::cout << concatenate(v) << std::endl; // Должно напечатать CatDogMouseTigerElk
 }
