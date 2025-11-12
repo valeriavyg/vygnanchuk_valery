@@ -8,7 +8,9 @@ bool isDomainName(const std::string& str)
 
 int main()
 {
-std::cout << isDomainName("www.google.com") << std::endl; // Напечатает 1
-std::cout << isDomainName("abc") << std::endl; // Напечатает 0
-std::cout << isDomainName("hello.com") << std::endl; // Напечатает 0
+    std::cout << isDomainName("www.google.com") << std::endl; // Напечатает 1
+    std::cout << isDomainName("abc") << std::endl; // Напечатает 0
+    std::cout << isDomainName("hello.com") << std::endl; // Напечатает 0
 }
+
+
