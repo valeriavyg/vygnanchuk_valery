@@ -1,0 +1,6 @@
+ОС: Windows 11
+Компилятор: g++ 
+Оболочка: MSYS2 UCRT64
+
+Команда:
+g++ -shared -o miptlib.dll -Wl,--out-implib,miptlib.dll.a algebra.cpp geometry.cpp statistics.cpp

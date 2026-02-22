@@ -1,0 +1,6 @@
+ОС: Windows 11
+Компилятор: g++ 
+Оболочка: MSYS2 UCRT64
+
+Команда:
+g++ test.cpp -I.(include directory) -L.(lib directory) -lmiptlib
