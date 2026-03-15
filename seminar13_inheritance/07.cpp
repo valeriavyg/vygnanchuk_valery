@@ -20,7 +20,7 @@ private:
 
     std::vector<std::string> mItems;    
     Rectangle mMainBox;   
-    Vector2 mPosition;  // <--- ЭТО ПОЛЕ БЫЛО ПРОПУЩЕНО!                
+    Vector2 mPosition;          
     float mWidth = 200;
     float mItemHeight = 0;
     
@@ -33,7 +33,7 @@ private:
 public:
     DropList(Vector2 position, float width)
     {
-        mPosition = position;  // Сохраняем позицию
+        mPosition = position; 
         mWidth = width;
         mFont = GetFontDefault();
 
